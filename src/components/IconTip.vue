@@ -1,11 +1,11 @@
 <script setup>
-  import {
-    Tooltip,
-    TooltipContent,
-    TooltipProvider,
-    TooltipTrigger
-  } from '@/components/ui/tooltip'
-  import { defineProps } from 'vue'
+import {
+Tooltip,
+TooltipContent,
+TooltipProvider,
+TooltipTrigger
+} from '@/components/ui/tooltip';
+import { defineProps } from 'vue';
 
   const props = defineProps({
     iconName: String,
